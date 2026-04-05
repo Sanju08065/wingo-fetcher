@@ -1,0 +1,14 @@
+{
+  "name": "wingo-server",
+  "version": "1.0.0",
+  "description": "Wingo 30s data fetcher — runs 24/7 and stores to Firebase",
+  "main": "fetcher.js",
+  "scripts": {
+    "start": "node fetcher.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "firebase-admin": "^12.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
