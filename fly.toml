@@ -1,0 +1,11 @@
+[build]
+
+[env]
+  NODE_ENV = "production"
+
+[[services]]
+  internal_port = 3000
+  protocol = "tcp"
+
+[processes]
+  app = "node fetcher.js"
